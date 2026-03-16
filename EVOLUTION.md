@@ -293,20 +293,28 @@ These three models represent distinct strategies for the same destination — lo
   FOUNDATIONS (2018–2022)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Philosophies                         Enabling Techniques
-  ────────────                         ────────────────────
-  Ha & Schmidhuber (2018)              DiT (2022)
-  │  Dream inside learned models       ViT replaces U-Net for diffusion
+  Philosophies
+  ────────────
+  Ha & Schmidhuber (2018)
+  │  Dream inside learned models
   │
-  ├──→ PlaNet (2019)                   VQ-VAE / MAGVIT
-  │    RSSM latent dynamics            Discrete visual tokenization
+  ├──→ PlaNet (2019)
+  │    RSSM latent dynamics
   │
-  └──→ Dreamer V1 → V2 → V3           3DGS / NeRF
-       Latent imagination RL           Neural 3D rendering
+  └──→ Dreamer V1 → V2 → V3
+       Latent imagination RL
 
   LeCun (2022)
   │  Predict in representation space
   └──→ I-JEPA (2023)
+
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+
+  Enabling Techniques
+  ────────────────────
+  DiT (2022)              ViT replaces U-Net for diffusion
+  VQ-VAE / MAGVIT (2023)  Discrete visual tokenization
+  3DGS (2023) / NeRF (2020)  Neural 3D rendering
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -325,16 +333,16 @@ These three models represent distinct strategies for the same destination — lo
 
   Genie Line             JEPA Line            Game Simulation
   ──────────             ─────────            ───────────────
-  Genie (Feb 24)         V-JEPA (Feb 24)      DIAMOND (May 24) ──┐
-       ↓                      ↓               GameNGen (Aug 24) ──┤
-  Genie 2 (Dec 24)       V-JEPA 2 (Jun 25)                       ↓
-  3D, emergent NPCs      Action-conditioned   Oasis (Oct 24)
+  Genie (Feb 2024)       V-JEPA (Feb 2024)    DIAMOND (May 2024) ──┐
+       ↓                      ↓               GameNGen (Aug 2024) ──┤
+  Genie 2 (Dec 2024)     V-JEPA 2 (Jun 2025)                       ↓
+  3D, emergent NPCs      Action-conditioned   Oasis (Oct 2024)
        ↓                 Zero-shot planning        ↓
-  Genie 3 (Aug 25)                            Matrix-Game (Jun 25)
+  Genie 3 (Aug 2025)                          Matrix-Game (Jun 2025)
   Real-time 24fps                                  ↓
-                                              MG 2.0 (Aug 25)
+                                              MG 2.0 (Aug 2025)
                                                    ↓
-                                              Solaris (Feb 26)
+                                              Solaris (Feb 2026)
                                               Multiplayer
 
   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
@@ -342,11 +350,11 @@ These three models represent distinct strategies for the same destination — lo
   3D Generation          Platform             Training Paradigms
   (← 3DGS / NeRF)       ────────             (orthogonal techniques)
   ─────────────                               ──────────────────
-  Terra, Marble          Cosmos (Jan 25)      Diffusion Forcing
-  HunyuanWorld                ↓                    ↓
-  Visionary              Cosmos-Predict2.5    Self-Forcing
-                         (Oct 25)                  ↓
-                                              Checkpointed SF
+  Terra (Oct 2025)       Cosmos (Jan 2025)    Diffusion Forcing (2024)
+  Marble (Dec 2025)           ↓                    ↓
+  HunyuanWorld (Jul 2025) Cosmos-Predict2.5  Self-Forcing (Jun 2025)
+  Visionary (Dec 2025)   (Oct 2025)                ↓
+                                              Checkpointed SF (Feb 2026)
                                               (→ used by Solaris)
 
 
@@ -354,9 +362,9 @@ These three models represent distinct strategies for the same destination — lo
   CONVERGENCE (emerging thesis)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  PAN            — LLM dynamics + diffusion decoder
-  GWM-1          — unified post-training
-  LingBot-World  — open-source 28B MoE
+  PAN (Nov 2025)           — LLM dynamics + diffusion decoder
+  GWM-1 (Dec 2025)         — unified post-training
+  LingBot-World (Jan 2026) — open-source 28B MoE
 
 ```
 
