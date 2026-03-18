@@ -56,6 +56,8 @@ For video generation and interactive simulation, world models go beyond passive 
 
 > **New to the field?** Read [The Evolution of World Models for Media](EVOLUTION.md), a deep analysis of how methods build upon each other — from Ha & Schmidhuber (2018) to real-time multiplayer world simulation (2026).
 
+![World Model Evolution (2018 → 2026)](evolution.png)
+
 ---
 
 ## Surveys
